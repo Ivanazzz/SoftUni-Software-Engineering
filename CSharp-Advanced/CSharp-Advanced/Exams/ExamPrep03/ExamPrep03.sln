@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31919.166
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MealPlan", "MealPlan\MealPlan.csproj", "{0B156C9E-10B0-47D0-B3A6-07FCD2A8CBFA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zoo", "Zoo\Zoo.csproj", "{4CA68309-5EB5-472C-9714-769E58193096}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TruffleHunter", "TruffleHunter\TruffleHunter.csproj", "{6FC5AFFA-5B01-4887-9FF9-00295384989D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0B156C9E-10B0-47D0-B3A6-07FCD2A8CBFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B156C9E-10B0-47D0-B3A6-07FCD2A8CBFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B156C9E-10B0-47D0-B3A6-07FCD2A8CBFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B156C9E-10B0-47D0-B3A6-07FCD2A8CBFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CA68309-5EB5-472C-9714-769E58193096}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CA68309-5EB5-472C-9714-769E58193096}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CA68309-5EB5-472C-9714-769E58193096}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CA68309-5EB5-472C-9714-769E58193096}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6FC5AFFA-5B01-4887-9FF9-00295384989D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FC5AFFA-5B01-4887-9FF9-00295384989D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FC5AFFA-5B01-4887-9FF9-00295384989D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FC5AFFA-5B01-4887-9FF9-00295384989D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {02135A74-A128-4B3B-A8DB-69D163B0CFAA}
+	EndGlobalSection
+EndGlobal

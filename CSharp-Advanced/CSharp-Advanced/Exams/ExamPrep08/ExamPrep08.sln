@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31919.166
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Masterchef", "Masterchef\Masterchef.csproj", "{C95B0BB9-6643-48DF-BD53-0548F4D9F310}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkiRental", "SkiRental\SkiRental.csproj", "{41081EF9-A725-45D4-AA41-DBC3FB5E1B29}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Survivor", "Survivor\Survivor.csproj", "{CC7B2987-291D-4ACD-A3F4-940C1B9990CD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C95B0BB9-6643-48DF-BD53-0548F4D9F310}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C95B0BB9-6643-48DF-BD53-0548F4D9F310}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C95B0BB9-6643-48DF-BD53-0548F4D9F310}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C95B0BB9-6643-48DF-BD53-0548F4D9F310}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41081EF9-A725-45D4-AA41-DBC3FB5E1B29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41081EF9-A725-45D4-AA41-DBC3FB5E1B29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41081EF9-A725-45D4-AA41-DBC3FB5E1B29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41081EF9-A725-45D4-AA41-DBC3FB5E1B29}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC7B2987-291D-4ACD-A3F4-940C1B9990CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC7B2987-291D-4ACD-A3F4-940C1B9990CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC7B2987-291D-4ACD-A3F4-940C1B9990CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC7B2987-291D-4ACD-A3F4-940C1B9990CD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0CBCB474-0AEF-41CA-B02D-E7D55642AF81}
+	EndGlobalSection
+EndGlobal

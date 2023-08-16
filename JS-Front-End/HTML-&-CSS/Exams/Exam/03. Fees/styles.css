@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Montserrat:wght@400;500;600;700&display=swap');
+
+:root {
+    --clr-gray: #54546d;
+    --clr-purple: #9a5dc6;
+    --clr-white: white;
+    --clr-dark-gray: #e6e6e6;
+    --clr-light-gray:#f8f8f8;
+}
+
+body {
+    margin: 0;
+    font-family: "Lato", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Montserrat", sans-serif;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+/* Navigation */
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 72px;
+}
+
+.nav-logo {
+    width: 150px;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    margin-right: 4rem;
+}
+
+.nav-list-item {
+    color: var(--clr-gray);
+    opacity: 90%;
+    font-weight: bold;
+}
+
+/* Fees */
+
+.background {
+    background-color: var(--clr-gray);
+}
+
+.fees-content-title {
+    text-align: center;
+    font-size: 28px;
+    font-weight: 500;
+    color: var(--clr-white);
+    margin-bottom: 3rem;
+}
+
+.fees-content {
+    background-color: var(--clr-gray);
+    padding-top: 2rem;
+    padding-bottom: 8rem;
+}
+
+.fees-content-articles {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.fees-content-articles-article {
+    width: 450px;
+    background-color: var(--clr-white);
+    text-align: center;
+    border-radius: 8px;
+    max-height: 300px;
+}
+
+.fees-content-articles-article-top {
+    padding: 8px 24px;
+}
+
+.article-top-title {
+    color: var(--clr-gray);
+    font-weight: 600;
+}
+
+.article-top-info {
+    color: var(--clr-gray);
+}
+
+.article-top-btn {
+    background-color: var(--clr-purple);
+    color: var(--clr-white);
+    border-radius: 24px;
+    border: none;
+    font-weight: bold;
+    padding: 12px 24px;
+    margin-top: 2.3rem;
+    margin-bottom: 2.3rem;
+    box-shadow: 2px 8px 18px -10px rgba(0,0,0,0.6);
+}
+
+#bottom-green {
+    background: #079e41;
+    background: linear-gradient(90deg,#079e41 0%, #47d37c 80%);
+    color: var(--clr-white);
+    padding: 8px;
+    border-radius: 8px;
+}
+
+.article-bottom-title {
+    font-weight: 500;
+    font-size: 22px;
+    margin-top: 12px;
+}
+
+#bottom-blue {
+    display: flex;
+    justify-content: center;
+    gap: 2.7rem;
+    background: #4c6b88;
+    background: linear-gradient(90deg,#4c6b88 0%, #6098cc 80%);
+    color: var(--clr-white);
+    padding: 8px;
+    margin-top: 18px;
+    border-radius: 8px;
+}
+
+#bottom-purple {
+    display: flex;
+    justify-content: center;
+    gap: 2.7rem;
+    background: #4c39a7;
+    background: linear-gradient(90deg,#4c39a7 0%, #897bdf 80%);
+    color: var(--clr-white);
+    padding: 8px;
+    margin-top: 18px;
+    border-radius: 8px;
+}
+
+#line {
+    border-right: 2px solid var(--clr-white);
+    padding-right: 14px;
+}
+
+/* Benefits */
+
+.benefits {
+    padding: 2rem 10rem;
+}
+
+.benefits-title {
+    color: var(--clr-gray);
+    font-weight: 500;
+}
+
+.benefits-text {
+    opacity: 80%;
+}
+
+table {
+    width: 100%;
+    border-radius: 8px;
+    border-collapse: collapse;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-top: 2rem;
+}
+
+tbody tr {
+    color: black;
+    opacity: 80%;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: var(--clr-dark-gray);
+}
+  
+tbody tr:nth-child(even) {
+    background-color: var(--clr-light-gray);
+}
+
+td {
+    padding: 12px;  
+}
+
+#check {
+    margin-right: 5rem;
+}
+
+#check2 {
+    margin-right: 2rem;
+}
+
+/* Footer */
+
+footer {
+    background-color: var(--clr-gray);
+    padding: 1rem;
+}
+
+.footer-text {
+    color: var(--clr-white);
+    opacity: 40%;
+    text-align: center;
+    font-weight: 300;
+}
+
+/* Partners */
+
+.partners {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    padding: 3rem 5rem;
+    padding-bottom: 8rem;
+}
+
+.partners-info-title {
+    color: var(--clr-gray);
+    font-weight: 500;
+    margin-bottom: 24px;
+}
+
+.partners-info-text {
+    opacity: 80%;
+    width: 82%;
+}
+
+.partners-info-text a {
+    color: black;
+    text-decoration: none;
+}

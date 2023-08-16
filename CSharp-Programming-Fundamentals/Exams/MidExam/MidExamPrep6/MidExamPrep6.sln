@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31919.166
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlackFlag", "BlackFlag\BlackFlag.csproj", "{7B547C37-E5E1-4780-9F27-2D1CE3C32880}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TreasureHunt", "TreasureHunt\TreasureHunt.csproj", "{F408ADF4-2699-4B00-AD7B-07B72C2E2425}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManOWar", "ManOWar\ManOWar.csproj", "{440AA10A-517B-4D6C-BB53-3DF14D935B00}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7B547C37-E5E1-4780-9F27-2D1CE3C32880}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B547C37-E5E1-4780-9F27-2D1CE3C32880}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B547C37-E5E1-4780-9F27-2D1CE3C32880}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B547C37-E5E1-4780-9F27-2D1CE3C32880}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F408ADF4-2699-4B00-AD7B-07B72C2E2425}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F408ADF4-2699-4B00-AD7B-07B72C2E2425}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F408ADF4-2699-4B00-AD7B-07B72C2E2425}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F408ADF4-2699-4B00-AD7B-07B72C2E2425}.Release|Any CPU.Build.0 = Release|Any CPU
+		{440AA10A-517B-4D6C-BB53-3DF14D935B00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{440AA10A-517B-4D6C-BB53-3DF14D935B00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{440AA10A-517B-4D6C-BB53-3DF14D935B00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{440AA10A-517B-4D6C-BB53-3DF14D935B00}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {41DD4BDF-E86A-413E-9AAE-98E6063E4203}
+	EndGlobalSection
+EndGlobal

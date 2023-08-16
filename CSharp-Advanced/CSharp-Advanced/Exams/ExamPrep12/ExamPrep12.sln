@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31919.166
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cooking", "Cooking\Cooking.csproj", "{F71135F6-F478-4B07-9AE4-9AD63E9600C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Openning", "Openning\Openning.csproj", "{FD9F9B1B-4673-4314-A006-4BFE229102D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Selling", "Selling\Selling.csproj", "{0E240171-39CD-40E9-910E-1C487D0C0E13}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F71135F6-F478-4B07-9AE4-9AD63E9600C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F71135F6-F478-4B07-9AE4-9AD63E9600C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F71135F6-F478-4B07-9AE4-9AD63E9600C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F71135F6-F478-4B07-9AE4-9AD63E9600C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD9F9B1B-4673-4314-A006-4BFE229102D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD9F9B1B-4673-4314-A006-4BFE229102D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD9F9B1B-4673-4314-A006-4BFE229102D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD9F9B1B-4673-4314-A006-4BFE229102D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E240171-39CD-40E9-910E-1C487D0C0E13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E240171-39CD-40E9-910E-1C487D0C0E13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E240171-39CD-40E9-910E-1C487D0C0E13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E240171-39CD-40E9-910E-1C487D0C0E13}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CD5E5B3E-4EF6-4B07-BCDF-1A85D3733A11}
+	EndGlobalSection
+EndGlobal

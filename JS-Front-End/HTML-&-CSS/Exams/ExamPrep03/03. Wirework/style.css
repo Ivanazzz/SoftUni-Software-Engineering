@@ -1,0 +1,228 @@
+@import url(https://use.fontawesome.com/releases/v6.2.1/css/all.css);
+
+body {
+    margin: 0;
+    font-family: "Helvetica", sans-serif;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+:root {
+    --clr-orange: #e24e2a;
+    --clr-gray: #383838;
+    --clr-light-gray: #ececec;
+    --clr-dark-gray: #313d40;
+    --clr-default-gray: gray;
+    --clr-green: #1b9772;
+    --clr-black: black;
+    --clr-white: white;
+}
+
+/* Header */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 50px;
+    align-items: center;
+}
+
+.header-logo {
+    display: flex;
+    align-items: center;
+}
+
+.header-logo-site-title {
+    font-size: 50px;
+    color: var(--clr-dark-gray);
+    padding-right: 22px;
+    border-right: 2px solid gray;
+    margin-right: 22px;
+}
+
+.header-logo-site-source {
+    font-size: 16px;
+    font-weight: normal;
+    color: var(--clr-dark-gray);
+    padding-top: 16px;
+}
+
+.header-nav-list {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+    display: flex;
+    gap: 2px;
+}
+
+.header-nav-list-item {
+    background-color: var(--clr-light-gray);
+    padding: 28px;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+.header-nav-list-item:first-child {
+    background-color: var(--clr-orange);
+    color: var(--clr-white);
+}
+
+.header-nav-list-item-link {
+    text-decoration: none;
+    color: var(--clr--black);
+}
+
+/* Main */
+
+.intro-img {
+    width: 100%;
+}
+
+.intro-img img {
+    height: 100%;
+    width: 100%;
+    max-height: 650px;
+    object-fit: cover;
+}
+
+.intro-content {
+    background-color: var(--clr-orange);
+    color: var(--clr-white);
+    text-align: center;
+    padding: 50px 160px;
+    font-size: 20px;
+    line-height: 2;
+    margin-top: -4px;
+}
+
+.intro-content-text {
+    opacity: 70%;
+}
+
+.intro-content a {
+    color: var(--clr-white);
+}
+
+/* Benefits */
+
+.benefits {
+    background-color: var(--clr-gray);
+    padding: 80px 40px;
+    display: flex;
+    color: var(--clr-white);
+    gap: 50px;
+    text-align: center;
+}
+
+
+.benefit-img {
+    background-color: var(--clr-orange);
+    padding: 26px;
+    width: fit-content;
+    margin: auto;
+}
+
+.benefit-img i {
+    font-size: 50px;
+}
+
+.benefit-title {
+    font-weight: normal;
+}
+
+.benefit-line {
+    width: 100%;
+    height: 2px;
+    background-color: var(--clr-white);
+    opacity: 10%;
+}
+
+.benefit-text {
+    opacity: 30%;
+    line-height: 1.8;
+    font-size: 18px;
+}
+
+/* CTA */
+
+.cta {
+    text-align: center;
+}
+
+.cta-title {
+    color: var(--clr-dark-gray);
+    opacity: 90%;
+    font-size: 53px;
+    font-weight: normal;
+    margin-bottom: 0;
+    margin-top: 96px;
+}
+
+.cta-text {
+    color: var(--clr-default-gray);
+    opacity: 90%;
+    font-size: 26px;
+    margin-top: 2px;
+    margin-bottom: 32px;
+}
+
+.cta-btn {
+    background-color: var(--clr-green);
+    color: var(--clr-white);
+    font-size: 22px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    border: none;
+    padding: 28px 70px;
+    text-align: center;
+    margin-bottom: 96px;
+}
+
+/* Skills */
+
+.skills {
+    background-color: var(--clr-gray);
+    color: var(--clr-white);
+    display: flex;
+    text-align: center;
+}
+
+.skill {
+    padding: 80px 40px;
+}
+
+.skill-title {
+    font-size: 32px;
+    font-weight: normal;
+    margin-bottom: 48px;
+}
+
+.skill-text {
+    opacity: 30%;
+    font-size: 20px;
+    line-height: 1.8;
+}
+
+/* Footer */
+
+.info {
+    background-color: var(--clr-green);
+    padding: 80px 160px;
+}
+
+.info-text {
+    color: var(--clr-white);
+    opacity: 40%;
+    text-align: center;
+    font-size: 20px;
+    letter-spacing: 3px;
+}
+
+.info-text a {
+    text-decoration: none;
+    color: var(--clr-white);
+}

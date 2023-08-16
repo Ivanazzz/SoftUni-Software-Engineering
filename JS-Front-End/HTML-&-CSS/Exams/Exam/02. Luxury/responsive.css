@@ -1,0 +1,68 @@
+@media screen and (max-width: 600px) {
+
+    body {
+        width: 100%;
+    }
+
+    .div-header {
+        display: block;
+        display: none;
+        min-width: 100%;
+    }
+
+    header h3 {
+        font-size: 12px;
+        font-weight: normal;
+    }
+
+    header h1 {
+        font-size: 22px;
+    }
+
+    .options {
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+
+    .options article,
+    #about-blog {
+        width: 100%;
+    }
+
+    .options article h4 {
+        text-align: center;
+    }
+
+    .options a,
+    .gallery a,
+    .blog-title a,
+    .blog-title span {
+        display: none;
+    }
+
+    .gallery {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .blog article img {
+        display: none;
+    }
+
+    .blog-title h4 {
+        font-size: 26px;
+    }
+
+    footer {
+        display: block;
+    }
+
+    footer .icons {
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+        margin-top: 6px;
+    }
+}

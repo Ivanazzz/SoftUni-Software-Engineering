@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31919.166
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Animals", "Animals\Animals.csproj", "{31D02F07-AFB9-465D-AB8E-78C88A5BD12E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MathOperations", "MathOperations\MathOperations.csproj", "{28231D18-65FE-420E-BC10-DB746B784C5D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shapes", "Shapes\Shapes.csproj", "{F8984361-9920-4292-8D39-313EF63C4F1F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{31D02F07-AFB9-465D-AB8E-78C88A5BD12E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31D02F07-AFB9-465D-AB8E-78C88A5BD12E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31D02F07-AFB9-465D-AB8E-78C88A5BD12E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31D02F07-AFB9-465D-AB8E-78C88A5BD12E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28231D18-65FE-420E-BC10-DB746B784C5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28231D18-65FE-420E-BC10-DB746B784C5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28231D18-65FE-420E-BC10-DB746B784C5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28231D18-65FE-420E-BC10-DB746B784C5D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8984361-9920-4292-8D39-313EF63C4F1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8984361-9920-4292-8D39-313EF63C4F1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8984361-9920-4292-8D39-313EF63C4F1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8984361-9920-4292-8D39-313EF63C4F1F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {61A4E221-D189-4193-B630-5106CDA1605F}
+	EndGlobalSection
+EndGlobal

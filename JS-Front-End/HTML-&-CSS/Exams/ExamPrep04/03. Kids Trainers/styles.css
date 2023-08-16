@@ -1,0 +1,235 @@
+@import url(https://use.fontawesome.com/releases/v6.2.1/css/all.css);
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap');
+
+:root {
+    --clr-green: #00c1ad;
+    --clr-white: white;
+    --clr-orange: #ffb200;
+    --clr-dark-orange: #ff9100;
+    --clr-blue: #66b9f8;
+    --clr-light-blue: #a1d3fb;
+    --clr-gray: #565656;
+    --clr-light-gray: #919191;
+}
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Helvetica", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Montserrat", sans-serif;
+}
+
+/* Header */
+
+.nav {
+    background-color: var(--clr-green);
+    color: var(--clr-white);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+}
+
+.nav-logo {
+    width: 120px;
+    margin-left: 8rem;
+}
+
+.nav-logo img {
+    width: 100%;
+}
+
+.nav-list-items {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    margin-right: 12rem;
+    align-items: center;
+}
+
+.nav-list-item a {
+    text-decoration: none;
+    color: var(--clr-white);
+    font-weight: bold;
+}
+
+.header-trainers {
+    background-color: var(--clr-orange);
+    color: var(--clr-white);
+    padding: 3rem;
+    text-align: center;
+}
+
+.header-trainers-title {
+    margin-top: 0;
+    font-size: 36px;
+}
+
+.header-trainers-info {
+    max-width: 45%;
+    margin: 20px auto;
+}
+
+/* Main */
+
+.main-trainers {
+    padding: 5rem 5rem;
+    display: flex;
+    gap: 3rem;
+}
+
+.main-trainer {
+    display: flex;
+    align-items: flex-start;
+    gap: 3rem;
+}
+
+.main-trainer-img {
+    border-radius: 50%;
+    min-width: 180px;
+}
+
+.main-trainer-img img {
+    width: 100%;
+    border-radius: 50%;
+    border: 10px solid var(--clr-green);
+}
+
+.main-trainer-content-title {
+    color: var(--clr-green);
+    margin-bottom: 0;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.main-trainer-content-job {
+    color: gray;
+    opacity: 80%;
+    margin-top: 8px;
+    font-size: 12px;
+}
+
+.main-trainer-content-info {
+    opacity: 70%;
+    line-height: 1.3rem;
+    font-size: 16px;
+}
+
+.all-trainers {
+    display: flex;
+    gap: 8rem;
+    padding: 10rem 8rem 3rem 8rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.all-trainers .main-trainer {
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.all-trainers .main-trainer-img {
+    width: 180px;
+    height: 180px;
+}
+
+.all-trainers .main-trainer-img img {
+    height: 100%;
+    object-fit: cover;
+}
+
+.all-trainers .main-trainer-content {
+    text-align: center;
+    margin-left: 20px;
+}
+
+/* Form */
+
+.kids-team {
+    background-color: var(--clr-blue);
+    color: var(--clr-white);
+    text-align: center;
+    border-top: 10px solid var(--clr-light-blue);
+    padding: 2rem 6rem 10rem 6rem;
+}
+
+.kids-team-title {
+    font-size: 32px;
+}
+
+.kids-team-subtitle {
+    max-width: 56%;
+    margin: 0 auto 50px auto;
+    font-size: 14px;
+}
+
+.kids-team-form input{
+    background-color: transparent;
+    color: var(--clr-white);
+    border: 1px solid var(--clr-white);
+    border-radius: 4px;
+    padding: 12px;
+    margin-right: 1.3rem;
+}
+
+.kids-team-form input::placeholder {
+    color: var(--clr-white);
+}
+
+.kids-team-form .submit-btn {
+    background-color: var(--clr-dark-orange);
+    border-radius: 20px;
+    border: 1px solid var(--clr-dark-orange);
+    padding: 12px 32px;
+    margin-left: 2.8rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* Footer */
+
+footer {
+    background-color: var(--clr-gray);
+    color: var(--clr-white);
+    border-top: 10px solid var(--clr-light-gray);
+    display: flex;
+    justify-content: space-around;   
+    padding: 0.5rem 8rem;
+}
+
+.footer-col-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.footer-col-list-item  {
+    margin-bottom: 0.5rem;
+}
+
+.footer-col-list-item a{
+    text-decoration: none;
+    color: var(--clr-white);
+    font-size: 14px;
+}
+
+.socials {
+    display: flex;
+    gap: 1rem;
+}
+
+.footer-col .socials a {
+    font-size: 22px;
+}

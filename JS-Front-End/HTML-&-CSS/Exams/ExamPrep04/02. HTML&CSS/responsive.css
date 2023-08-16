@@ -1,0 +1,26 @@
+@media screen and (max-width: 600px) {
+    .navigation,
+    .navigation-list,
+    .benefits,
+    .info-section {
+        flex-direction: column;
+    }
+    
+    .navigation-logo-wrapper {
+        margin-bottom: 16px;
+    }
+
+    .header-img-wrapper {
+        display: none;
+    }
+
+    .header-content-text,
+    .info-section-item {
+        width: 100%;
+    }
+
+    .benefits,
+    .info-section {
+        gap: 48px;
+    }
+}
