@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 
 using HouseRentingSystem.Core.Models.Agent;
 using HouseRentingSystem.Core.Contracts;
+using HouseRentingSystem.Extensions;
 
 namespace HouseRentingSystem.Controllers
 {
@@ -18,6 +19,12 @@ namespace HouseRentingSystem.Controllers
         [HttpGet]
         public async Task<IActionResult> Become()
         {
+            if (await agentService.ExistByIdAsync(User.Id()))
+            {
+                // if the user is already agent
+                return BadRequest();
+            }
+
             var model = new BecomeAgentFormModel();
 
             return View(model);
