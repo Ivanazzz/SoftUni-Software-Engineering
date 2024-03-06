@@ -1,9 +1,9 @@
-﻿using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
+
+using System.Security.Claims;
 
 using HouseRentingSystem.Core.Models.Agent;
 using HouseRentingSystem.Core.Contracts;
-using HouseRentingSystem.Extensions;
 
 namespace HouseRentingSystem.Controllers
 {
