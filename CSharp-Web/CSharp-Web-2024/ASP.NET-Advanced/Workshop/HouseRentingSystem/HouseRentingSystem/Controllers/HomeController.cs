@@ -4,7 +4,7 @@ using System.Diagnostics;
 
 using HouseRentingSystem.Core.Models.Home;
 using HouseRentingSystem.Models;
-using HouseRentingSystem.Core.Contracts.House;
+using HouseRentingSystem.Core.Contracts;
 
 namespace HouseRentingSystem.Controllers
 {

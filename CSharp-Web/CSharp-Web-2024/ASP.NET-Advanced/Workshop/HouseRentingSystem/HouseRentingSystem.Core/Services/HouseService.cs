@@ -1,10 +1,10 @@
 ﻿using Microsoft.EntityFrameworkCore;
-
-using HouseRentingSystem.Core.Contracts.House;
 using HouseRentingSystem.Core.Models.House;
 using HouseRentingSystem.Infrastructure.Data.Common;
+using HouseRentingSystem.Infrastructure.Data.Models;
+using HouseRentingSystem.Core.Contracts;
 
-namespace HouseRentingSystem.Core.Services.House
+namespace HouseRentingSystem.Core.Services
 {
     public class HouseService : IHouseService
     {
@@ -18,7 +18,7 @@ namespace HouseRentingSystem.Core.Services.House
         public async Task<IEnumerable<HouseIndexServiceModel>> LastThreeHouses()
         {
             return await repository
-                .AllReadOnly<Infrastructure.Data.Models.House>()
+                .AllReadOnly<House>()
                 .OrderByDescending(h => h.Id)
                 .Take(3)
                 .Select(h => new HouseIndexServiceModel()

@@ -1,9 +1,9 @@
-﻿using HouseRentingSystem.Core.Contracts.House;
-using HouseRentingSystem.Core.Services.House;
+﻿using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
+using HouseRentingSystem.Core.Services;
 using HouseRentingSystem.Infrastructure.Data;
 using HouseRentingSystem.Infrastructure.Data.Common;
-using Microsoft.AspNetCore.Identity;
-using Microsoft.EntityFrameworkCore;
+using HouseRentingSystem.Core.Contracts;
 
 namespace Microsoft.Extensions.DependencyInjection
 {
