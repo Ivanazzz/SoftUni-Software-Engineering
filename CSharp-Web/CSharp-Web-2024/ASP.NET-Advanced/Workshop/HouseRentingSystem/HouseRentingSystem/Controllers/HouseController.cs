@@ -24,27 +24,38 @@ namespace HouseRentingSystem.Controllers
 
         [AllowAnonymous]
         [HttpGet]
-        public async Task<IActionResult> All([FromQuery] AllHousesQueryModel query)
+        public async Task<IActionResult> All([FromQuery] AllHousesQueryModel model)
         {
-            var model = await houseService.AllAsync(
-                query.Category,
-                query.SearchTerm,
-                query.Sorting,
-                query.CurrentPage,
-                query.HousesPerPage);
+            var houses = await houseService.AllAsync(
+                model.Category,
+                model.SearchTerm,
+                model.Sorting,
+                model.CurrentPage,
+                model.HousesPerPage);
 
-            query.TotalHousesCount = model.TotalHousesCount;
-            query.Houses = model.Houses;
-            query.Categories = await houseService
+            model.TotalHousesCount = houses.TotalHousesCount;
+            model.Houses = houses.Houses;
+            model.Categories = await houseService
                 .AllCategoriesNamesAsync();
 
-            return View(query);
+            return View(model);
         }
 
         [HttpGet]
         public async Task<IActionResult> Mine()
         {
-            var model = new AllHousesQueryModel();
+            var userId = User.Id();
+            IEnumerable<HouseServiceModel> model;
+
+            if (await agentService.ExistByIdAsync(userId))
+            {
+                int agentId = await agentService.GetAgentIdAsync(userId) ?? 0;
+                model = await houseService.AllHousesByAgentIdAsync(agentId);
+            }
+            else
+            {
+                model = await houseService.AllHousesByUserIdAsync(userId);
+            }
 
             return View(model);
         }
@@ -52,7 +63,12 @@ namespace HouseRentingSystem.Controllers
         [HttpGet]
         public async Task<IActionResult> Details(int id)
         {
-            var model = new HouseDetailsViewModel();
+            if (await houseService.ExistsAsync(id) == false)
+            {
+                return BadRequest();
+            }
+
+            var model = await houseService.HouseDetailsByIdAsync(id);
 
             return View(model);
         }
